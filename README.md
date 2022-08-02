@@ -1,6 +1,6 @@
-# S3 Hosted Website Served by a CloudFront Distribution and restricted by Cloudfront Origin Access Identity (OAI)
+# S3 Hosted Website Served by a CloudFront Distribution restricted by Cloudfront Origin Access Identity (OAI)
 
-This repo contains serverless patterns showing how to integrate services services using infrastructure-as-code (IaC). You can use these patterns to help develop your own projects quickly.
+This repo contains serverless patterns showing how to setup a S3 website hosting bucket that is served by a CloudFront distribution that also obfuscates the CloudFront Distribution domain via Cloudfront Origin Access Identity (OAI).
 
 - Learn more about these patterns at https://serverlessland.com/patterns.
 - To learn more about submitting a pattern, read the [publishing guidelines page](https://github.com/aws-samples/serverless-patterns/blob/main/PUBLISHING.md).
@@ -9,8 +9,12 @@ Important: this application uses various AWS services and there are costs associ
 
 ## Requirements
 
+* AWS Account
 * AWS CLI already configured with Administrator permission
 * [NodeJS 14.x installed](https://nodejs.org/en/download/)
+* CDK v2 installed: See Getting Started With the AWS CDK
+* Python CDK required libraries: (install with pip install -r requirements.txt)
+* Clone this repo!
 
 ## Deployment Instructions
 
