@@ -1,4 +1,4 @@
-# AWS serverless patterns
+# S3 Hosted Website Served by a CloudFront Distribution and restricted by Cloudfront Origin Access Identity (OAI)
 
 This repo contains serverless patterns showing how to integrate services services using infrastructure-as-code (IaC). You can use these patterns to help develop your own projects quickly.
 
